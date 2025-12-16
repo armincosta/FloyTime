@@ -1,22 +1,22 @@
 /** Author: Armin Costa  e-mail: armincosta@hotmail.com
 ----------------------------
- I coded this somewhat stupid game as an example for a freind of mine in order to lern programming
+ I coded this somewhat stupid game as an example for a friend of mine in order to teach him programming
 
-The gams consists in:
+The game consists of:
 
-	* a 2D room with a window and a small container with some water
+* a 2D room with a window and a small container with some water inside
 
-	* a fly flying aroud
+* a fly flying aroud
 
-	* try to get the fly into the container
+* you need to try to get the fly into the container
 
-	* position the container near the window
+* once you caught the fly, position the container near the window
 
-	* open the window ("S" key) and release the fly ("A" key)
+* open the window ("S" key) and release the fly ("A" key)
 
-	* close the window as soon as possible ("D" key)
+* you must make sure to close the window as soon as possible ("D" key)
 
-	* when the window is open more flies might come in:)
+* whenever the window is openm, more flies might come in:)
 
 A mad Game!!!:D
 
@@ -24,12 +24,21 @@ I coded it while being in a hostpital, and while at 1st year of university.
 
  NOTE: Full of bug to be solved by some java beginner:)
 
+
+## compile
+
+```
+javac -cp . FloyTime.java
+```
+
+## run
+
 To run the java applet use the java appletviewer:
 ```
 appletviewer FloyTime.html
-```
- 
- So I hope it helps!! ;-)
+``` 
+
+So I hope it helps ;-)
 
 **/
 import java.awt.*;
@@ -464,4 +473,5 @@ public class FloyTime extends Applet implements Runnable {
     }
   }
 }
+
 
